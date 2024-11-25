@@ -1,0 +1,53 @@
+/* Imposta un contenitore flessibile per le sezioni */
+body {
+  margin: 0; /* Rimuove il margine predefinito */
+  display: flex; /* Usa Flexbox per disporre le sezioni orizzontalmente */
+  height: 100vh; /* Altezza completa del viewport */
+}
+
+section {
+  flex: 1; /* Ogni sezione occupa spazio uguale */
+  display: flex; /* Flexbox per contenuti interni */
+  flex-direction: column; /* Disposizione verticale */
+  justify-content: flex-start; /* Allinea i contenuti in alto */
+  align-items: center; /* Centra i contenuti orizzontalmente */
+  text-align: center; /* Centra il testo */
+  padding: 2em;
+  margin: 0; /* Elimina margini esterni per rimuovere spazi */
+}
+
+/* Colori di sfondo per le sezioni */
+#green {
+  background-color: #8ffda7;
+}
+
+#orange {
+  background-color: #ffc788;
+}
+
+#yellow {
+  background-color: #ffff92;
+}
+
+#red {
+  background-color: #ff919c;
+}
+
+#blue {
+  background-color: #98d2ff;
+}
+
+/* Lista: rimuovi punti elenco e aggiusta il layout */
+ul {
+  padding: 0;
+  list-style: none; /* Rimuove i punti elenco */
+  width: 100%; /* Allinea al contenitore */
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  margin: 1em auto;
+  text-align: center;
+  width: 2em; /* Larghezza uniforme per ogni elemento */
+}
